@@ -7,7 +7,6 @@ import BodyPart from './BodyPart';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
 
-{/* <img src={LeftArrowIcon} alt="right-arrow" /> */}
 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);

@@ -23,11 +23,6 @@ const App = () => {
       </Routes>
       <Footer />
 
-
-      {/* <HorizontalScrollbar /> */}
-
-
-
     </Box>
   )
 }

@@ -12,11 +12,9 @@ const SimilarExercises = ({ id, target, equipment }) => {
 
 
   const loadExerciseData = async ()=>{
-    console.log("Similar Exercises");
     const muscleData = await FetchData(`https://exercisedb.p.rapidapi.com/exercises/target/abductors`,'exercisedb');
     setMuscleExerciseData(muscleData);
 
-    console.log("Equipments");
     const equipmentData = await FetchData(`https://exercisedb.p.rapidapi.com/exercises/equipment/assisted`,'exercisedb')
     setEquipmentExerciseData(equipmentData);
   }
