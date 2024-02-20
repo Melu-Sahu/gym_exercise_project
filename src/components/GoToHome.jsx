@@ -13,7 +13,7 @@ const GoToHome = () => {
         
         onClick={handleClick}
         >
-      <img src={GoTop} alt='toTopBtn' style={{width:'20px'}}/>
+      <img src={GoTop} alt='toTopBtn' style={{width:'30px'}}/>
     </div>
   )
 }
